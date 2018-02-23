@@ -3,16 +3,16 @@ var place;
 var marker;
 var markerOldList = [];
 
-//on page load, load the map with marker for Mountenview location
+//on page load, load the map with marker for Fremont,CA location
 var map = new google.maps.Map(document.getElementById('map-canvas'),{
-    center: {lat: 37.3895838, lng:-122.0941615},
+    center: {lat: 37.548271, lng:-121.988571},
     zoom: 13
 });
 
-var position = new google.maps.LatLng(37.3895838,-122.0941615);
+var position = new google.maps.LatLng(37.548271,-121.988571);
 var marker = new google.maps.Marker({
     map: map,
-    position: {lat: 37.3895838, lng:-122.0941615},
+    position: {lat: 37.548271, lng:-121.988571},
 });
 
 
